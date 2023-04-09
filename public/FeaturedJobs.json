@@ -1,0 +1,80 @@
+[
+  {
+    "id": "623853b2614ad5aba311fdd1",
+    "picture": "https://www.citypng.com/public/uploads/preview/-11596996178apaxd1pez2.png",
+    "title": "Technical Database Engineer",
+    "name": "Google LLC",
+    "location": "Mountain View, California",
+    "salary": "150k - 200k",
+    "description": "A Technical Database Engineer is a professional who is responsible for designing, implementing, and maintaining database systems to ensure their security, reliability, and performance. They work closely with software developers, network engineers, and other IT professionals to ensure that the database systems meet the requirements of the organization.",
+    "responsibility": "Designing and implementing database systems: This involves identifying the needs of the organization and designing a database system that meets those requirements. They may also be responsible for creating database schemas, tables, indexes, and other database objects.Ensuring database security: Technical Database Engineers must ensure that the database system is secure from unauthorized access or data breaches. This involves implementing security protocols such as encryption, access controls, and audit trails.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  },
+  {
+    "id": "623853b7614ad5aba311fde1",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53MDEasMDCMJWvbmZriwXReOHuSIxqwRdCqqCVX60lI-fSt337GY7epdpeudcgmDGihI&usqp=CAU",
+    "title": "Senior Product Designer",
+    "name": "Netflix",
+    "location": "San Francisco, USA",
+    "salary": "200k - 250k",
+    "description": "A Senior Product Designer is a professional who is responsible for leading the design of a product, from ideation to launch, while considering the needs of the user, the business, and the technology. They work closely with cross-functional teams, including product managers, engineers, and researchers, to create a cohesive and compelling user experience.",
+    "responsibility": "Leading the design process: Senior Product Designers are responsible for leading the design process from ideation to launch. This involves collaborating with cross-functional teams to define the product vision and roadmap, conducting user research and analysis, creating design concepts, and iterating on designs based on feedback.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  },
+  {
+    "id": "623853b2614qd5aba311fdf1",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu4gCl3HPHeVBLIHxoaXHRTM-keB4s7j-N0Q&usqp=CAU",
+    "title": "Software Engineer",
+    "name": "Tesla",
+    "location": "San Carlos, California, USA",
+    "salary": "250k - 300k",
+    "description": "A Software Engineer is a professional who designs, develops, and maintains software applications, systems, and infrastructure. They work in a variety of industries, including technology, healthcare, finance, and entertainment, and may specialize in areas such as web development, mobile development, or data science.",
+    "responsibility": "Analyzing user requirements: Software Engineers must analyze the needs of the user and the business to determine the requirements for the software application, system, or infrastructure. Designing software architecture: Software Engineers must design the architecture of the software application, system, or infrastructure to meet the requirements identified in the analysis phase. This involves creating system diagrams, flowcharts, and other design documentation.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  },
+  {
+    "id": "623853b2614ad5yba311fdg1",
+    "picture": "https://e7.pngegg.com/pngimages/514/372/png-clipart-amazon-com-logo-amazon-prime-video-berlin-font-others-text-orange.png",
+    "title": "Business & Merchant Development",
+    "name": "Amazon",
+    "location": "Seattle, Washington, USA",
+    "salary": "180k - 280k",
+    "description": "Business & Merchant Development is a process of identifying new business opportunities and establishing partnerships with merchants to increase sales and revenue for a company. This role involves creating and executing strategies to expand a company's market reach, acquiring new customers, and retaining existing ones.",
+    "responsibility": "Identifying new business opportunities: This involves researching and identifying new markets, product lines, or customer segments that the company can target to increase sales and revenue.Establishing partnerships with merchants: Business & Merchant Development professionals must establish partnerships with merchants, including retailers, online marketplaces, and service providers, to increase sales and distribution channels.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  },
+  {
+    "id": "623853b2614ad5abr311fdh1",
+    "picture": "https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo.png",
+    "title": "Marketing Manager",
+    "name": "Facebook",
+    "location": "Hacker Way, Menlo Park, USA",
+    "salary": "400k - 460k",
+    "description": "A Marketing Manager is a professional responsible for planning and executing marketing strategies to promote a company's products or services. They work in a variety of industries, including technology, healthcare, finance, and entertainment, and may specialize in areas such as digital marketing, brand management, or product marketing.",
+    "responsibility": "Conducting market research: Marketing Managers must conduct research to understand the needs and preferences of the target market. This involves analyzing market trends, conducting surveys and focus groups, and monitoring the competition. Developing marketing campaigns: Marketing Managers must develop marketing campaigns to promote the company's products or services. This involves creating marketing strategies, defining target audiences, developing messaging and content, and selecting appropriate channels for distribution",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  },
+  {
+    "id": "623853b2614ad5abg311fdi1",
+    "picture": "https://download.logo.wine/logo/YouTube/YouTube-Logo.wine.png",
+    "title": "Product and Design Engineer",
+    "name": "YouTube",
+    "location": "San Bruno, California, USA",
+    "salary": "380k - 450k",
+    "description": "A Product and Design Engineer is a professional who is responsible for designing and developing new products, systems, or processes from ideation to launch. They work closely with cross-functional teams, including product managers, designers, and engineers, to ensure the successful development and launch of products that meet customer needs and business objectives.",
+    "responsibility": "Conducting research and analysis: Product and Design Engineers must conduct research and analysis to understand customer needs, market trends, and competitive landscape. This involves gathering and analyzing data from a variety of sources, such as customer surveys, industry reports, and market research.",
+    "educationalRequirements": "Bachelor degree to complete any reputational university.",
+    "phone": "018654xxxx8",
+    "email": "info@gmail.com"
+  }
+]
