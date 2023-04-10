@@ -1,6 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = ({ item }) => {
+
+  
+
   const {
     picture,
     title,
@@ -12,6 +16,7 @@ const FeaturedJobs = ({ item }) => {
     educationalRequirements,
     phone,
     email,
+    id
   } = item;
 
   return (
@@ -81,7 +86,11 @@ const FeaturedJobs = ({ item }) => {
         </div>
 
         <div className="card-actions justify-center mt-7">
-          <button className="btn btn-primary">View Details</button>
+          <Link
+            to={`../view/${id}`}
+            className="inline-flex items-center bg-purple-600 p-3 rounded-lg font-bold text-white transition-colors duration-200 hover:text-blue-700">
+            Learn More
+          </Link>
         </div>
       </div>
     </div>

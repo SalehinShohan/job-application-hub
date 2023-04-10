@@ -1,7 +1,7 @@
 import React from "react";
 
-const JobCategory = ({ jc }) => {
-  const { icon, title, job } = jc;
+const JobCategory = ({ job }) => {
+  const { icon, titles, cjobs } = job;
 
   return (
     <div className="card w-60 bg-base-100 shadow-2xl">
@@ -9,8 +9,8 @@ const JobCategory = ({ jc }) => {
         <img src={icon} alt="Shoes" className="rounded-xl h-20" />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title text-white">{title}</h2>
-        <p>{job}</p>
+        <h2 className="card-title text-white">{titles}</h2>
+        <p>{cjobs}</p>
       </div>
     </div>
   );

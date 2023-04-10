@@ -6,18 +6,25 @@ import { data } from "autoprefixer";
 
 const Home = () => {
 
-    const jobCategories = useLoaderData();
+  const [jobs, setJobs] = useState([]);
+    useEffect(() => {
+        fetch('JobCategory.json')
+        .then(res => res.json())
+        .then( data => setJobs(data))
+    },[]);
+
+    
 
     const [items, setItems] = useState([]);
     useEffect(() => {
         fetch('FeaturedJobs.json')
         .then(res => res.json())
         .then( data => setItems(data))
-    },[])
+    },[]);
 
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-20">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-20 w-10/12 mx-auto">
         <div>
           <h2 className="text-7xl font-bold leading-normal">
             One Step <br /> Closer To Your <br />{" "}
@@ -41,11 +48,11 @@ const Home = () => {
         <h2 className="text-center font-bold text-4xl mt-28">Job Category List</h2>
         <p className="mt-5 text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
       </div>
-      <div className='grid sm:grid-cols-2 lg:grid-cols-4 mt-20 gap-10'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-4 mt-20 gap-10 w-10/12 mx-auto'>
             {
-                jobCategories.map(jc => <JobCategory
-                    key={jc.id}
-                    jc={jc}
+                jobs.map(job => <JobCategory
+                    key={job.id}
+                    job={job}
                 ></JobCategory>)
             }
         </div>
@@ -54,7 +61,7 @@ const Home = () => {
         <h2 className="text-center mt-44 text-4xl font-bold">Featured Jobs</h2>
         <p className="text-center mt-5">Explore thousands of job opportunities with all the information you need. Its your future</p>
 
-      <div className='grid sm:grid-cols-1 lg:grid-cols-2 mt-16'>
+      <div className='grid sm:grid-cols-1 lg:grid-cols-2 mt-16 w-10/12 mx-auto'>
             {
                 items.map(item => <FeaturedJobs
                     key={item.id}

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import ViewDetails from './components/ViewDetails/ViewDetails';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('JobCategory.json'),
-        // loader: () => fetch('FeaturedJobs.json'),
+        
+      },
+      {
+        path: 'view/:jobId',
+        element: <ViewDetails></ViewDetails>,
+        loader: () => fetch(`FeaturedJobs.json`),
       },
     ]
   }
