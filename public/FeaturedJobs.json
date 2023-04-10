@@ -11,7 +11,9 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "2-3 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   },
   {
     "id": "623853b7614ad5aba311fde1",
@@ -25,7 +27,9 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "1-3 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   },
   {
     "id": "623853b2614qd5aba311fdf1",
@@ -39,7 +43,9 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "2-5 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   },
   {
     "id": "623853b2614ad5yba311fdg1",
@@ -53,7 +59,9 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "2-3 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   },
   {
     "id": "623853b2614ad5abr311fdh1",
@@ -67,7 +75,9 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "1-2 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   },
   {
     "id": "623853b2614ad5abg311fdi1",
@@ -81,6 +91,8 @@
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
     "experience": "2-4 Years in this field.",
     "phone": "018654xxxx8",
-    "email": "info@gmail.com"
+    "email": "info@gmail.com",
+    "type1": "Remote",
+    "type2": "Full Time"
   }
 ]

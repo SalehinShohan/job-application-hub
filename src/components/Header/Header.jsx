@@ -70,7 +70,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <button className="btn btn-secondary">Star Applying</button>
+        <button className="btn btn-accent">Star Applying</button>
         <div className="lg:hidden">
           <button
             aria-label="Open Menu"

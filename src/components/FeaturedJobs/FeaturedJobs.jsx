@@ -3,20 +3,13 @@ import { Link } from "react-router-dom";
 
 const FeaturedJobs = ({ item }) => {
 
-  
-
   const {
     picture,
     title,
     name,
     location,
     salary,
-    description,
-    responsibility,
-    educationalRequirements,
-    phone,
-    email,
-    id
+    id, type1, type2
   } = item;
 
   return (
@@ -30,10 +23,10 @@ const FeaturedJobs = ({ item }) => {
 
         <div className="flex gap-4">
           <div className="border border-purple-400 p-1 m-1 text-purple-400">
-            <p>Full Time</p>
+            <p>{type1}</p>
           </div>
           <div className="border border-purple-400 p-1 m-1 text-purple-400">
-            <p>Remort</p>
+            <p>{type2}</p>
           </div>
         </div>
 
