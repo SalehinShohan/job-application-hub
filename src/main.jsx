@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import ViewDetails from './components/ViewDetails/ViewDetails';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
         element: <ViewDetails></ViewDetails>,
         loader: () => fetch(`FeaturedJobs.json`),
       },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>,
+        loader: () => fetch('rechart.json')
+      }
     ]
   }
 ])
