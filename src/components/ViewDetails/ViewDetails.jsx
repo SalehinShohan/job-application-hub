@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useNavigation, useParams } from "react-router-dom";
+import { addToDb } from "../utils/fakeDb";
 
 const ViewDetails = () => {
   const datas = useLoaderData();
   const { jobId } = useParams();
 
-  console.log(jobId);
+//   console.log(jobId);
 
   const newDetail = datas.find((detail) => detail.id === jobId);
 
   console.log(newDetail);
+
+  const jobAddedToAppliedJob = (id) => {
+    console.log(id);
+    addToDb(id)
+  }
 
   return (
     <div>
@@ -46,7 +52,7 @@ const ViewDetails = () => {
                 <p className="mt-5 text-black">Phone: {newDetail.phone}</p>
                 <p className="mt-5 text-black">Email: {newDetail.email}</p>
                 <p className="mt-5 text-black">Address: {newDetail.location}</p>
-                <button className="btn btn-secondary w-96 mt-4">Apply Now</button>
+                <button onClick={() => jobAddedToAppliedJob(newDetail.id)} className="btn btn-secondary w-96 mt-4">Apply Now</button>
             </div>
         </div>
       </div>
