@@ -10,10 +10,10 @@ const ViewDetails = () => {
 
   const newDetail = datas.find((detail) => detail.id === jobId);
 
-  console.log(newDetail);
+  // console.log(newDetail);
 
   const jobAddedToAppliedJob = (id) => {
-    console.log(id);
+    // console.log(id);
     addToDb(id)
   }
 

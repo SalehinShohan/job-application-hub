@@ -112,7 +112,7 @@ const Header = () => {
                         </svg>
                       </div>
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        HG
+                        
                       </span>
                     </Link>
                   </div>

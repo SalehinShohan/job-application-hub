@@ -3,7 +3,7 @@ import { getShoppingCart } from "../utils/fakeDb";
 
    export const jobAndData = async() => {
 
-        const jobsData = await fetch('FeaturedJobs.json')
+        const jobsData = await fetch('/FeaturedJobs.json')
 
         const jobs = await jobsData.json()
 

@@ -6,8 +6,6 @@ import JobItem from "../JobItem/JobItem";
 const AppliedJobs = () => {
   const { newArr } = useLoaderData();
 
-  console.log(newArr);
-
   return (
     <div className="flex min-h-screen items-start justify-center text-fray-900">
       <div className="flex flex-col max-w-3xl p-6 space-y-4 sm:p-10">

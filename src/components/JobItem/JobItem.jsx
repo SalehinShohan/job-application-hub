@@ -1,6 +1,6 @@
 import React from "react";
 
-const JobItem = ({ job, handleRemoveItem }) => {
+const JobItem = ({ job }) => {
   const { name, picture, title, salary, location, type1, type2 } = job;
   return (
     <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
@@ -72,9 +72,13 @@ const JobItem = ({ job, handleRemoveItem }) => {
                   </div>
                   <div>
                     <p>Salary: {salary}</p>
+                    
                   </div>
+                  
                 </div>
+                
               </div>
+              
             </div>
           </div>
         </div>
