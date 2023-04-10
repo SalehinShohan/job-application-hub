@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-gray-700 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-gray-700 py-5 lg:mx-auto sm:max-w-xl lg:max-w-screen-xl lg:px-8">
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
