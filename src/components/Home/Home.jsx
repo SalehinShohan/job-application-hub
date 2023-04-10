@@ -24,14 +24,14 @@ const Home = () => {
 
   return (
     <div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-16 lg:w-10/12 lg:mx-auto">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-16 lg:ml-64">
         <div>
-          <h2 className="text-7xl font-bold leading-normal">
-            One Step <br /> Closer To Your <br />{" "}
-            <span className="text-success">Dream Job</span>{" "}
+          <h2 className="text-6xl font-bold leading-normal">
+            One Step <br /> Closer To Your <br />
+            <span className="text-success">Dream Job</span>
           </h2>
           <p className="mt-5">
-            Explore thousands of job opportunities with all the <br />{" "}
+            Explore thousands of job opportunities with all the <br />
             information you need. Its your future. Come find it. <br /> Manage
             all your job application from start to finish.
           </p>
@@ -44,11 +44,11 @@ const Home = () => {
           />
         </div>
       </div>
-      <div>
-        <h2 className="text-center font-bold text-4xl mt-20">Job Category List</h2>
+      <div className="mb-10">
+        <h2 className="text-center font-bold text-4xl mt-40">Job Category List</h2>
         <p className="mt-5 text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
       </div>
-      <div className='grid sm:grid-cols-1 lg:grid-cols-4 mt-16 lg:w-10/12 lg:mx-auto gap-6'>
+      <div className='grid sm:grid-cols-1 lg:grid-cols-4 mt-16 lg:ml-40'>
             {
                 jobs.map(job => <JobCategory
                     key={job.id}
@@ -58,10 +58,10 @@ const Home = () => {
         </div>
         
         
-        <h2 className="text-center mt-44 text-4xl font-bold">Featured Jobs</h2>
+        <h2 className="text-center mt-40 text-4xl font-bold">Featured Jobs</h2>
         <p className="text-center mt-5">Explore thousands of job opportunities with all the information you need. Its your future</p>
 
-      <div className='grid sm:grid-cols-1 lg:grid-cols-2 mt-16 lg:w-10/12 lg:mx-auto'>
+      <div className='grid sm:grid-cols-1 lg:grid-cols-2 mt-10 lg:ml-80'>
             {
                 items.map(item => <FeaturedJobs
                     key={item.id}
