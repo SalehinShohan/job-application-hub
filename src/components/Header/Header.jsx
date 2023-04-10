@@ -27,7 +27,7 @@ const Header = () => {
             </svg>
           </div>
           <span className="ml-2 text-xl font-bold tracking-wide text-white">
-            Job ApplicationHub
+            <span className="text-purple-500">Job</span> ApplicationHub
           </span>
         </Link>
         <ul className="items-center hidden space-x-8 lg:flex">

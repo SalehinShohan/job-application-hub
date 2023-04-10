@@ -89,7 +89,7 @@ const FeaturedJobs = ({ item }) => {
           <Link
             to={`../view/${id}`}
             className="inline-flex items-center bg-purple-600 p-3 rounded-lg font-bold text-white transition-colors duration-200 hover:text-blue-700">
-            Learn More
+            View Details
           </Link>
         </div>
       </div>
