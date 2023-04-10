@@ -9,7 +9,7 @@ const AppliedJobs = () => {
   console.log(newArr);
 
   return (
-    <div className="flex min-h-screen items-start justify-star text-fray-900">
+    <div className="flex min-h-screen items-start justify-center text-fray-900">
       <div className="flex flex-col max-w-3xl p-6 space-y-4 sm:p-10">
         <h2 className="text-xl font-semibold">
           {newArr.length ? "Jobs Application" : "Job Application Empty"}
@@ -20,7 +20,7 @@ const AppliedJobs = () => {
         {
             newArr.map( job => <JobItem
                 key={job.id}
-                jov={job}
+                job={job}
             ></JobItem>)
         }
 
