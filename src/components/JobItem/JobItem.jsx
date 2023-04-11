@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JobItem = ({ job }) => {
-  const { name, picture, title, salary, location, type1, type2 } = job;
+  const { name, picture, title, salary, location, type1, type2, id } = job;
 
   return (
     <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
@@ -73,13 +74,16 @@ const JobItem = ({ job }) => {
                   </div>
                   <div>
                     <p>Salary: {salary}</p>
-                    
                   </div>
-                  
                 </div>
-                
               </div>
-              
+              <div className="card-actions justify-center mt-7">
+                <Link
+                  to={`../view/${id}`}
+                  className="inline-flex items-center bg-purple-600 p-3 rounded-lg font-bold text-white transition-colors duration-200 hover:text-blue-700">
+                  View Details
+                </Link>
+              </div>
             </div>
           </div>
         </div>
