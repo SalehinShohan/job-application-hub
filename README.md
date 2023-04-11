@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-Sa
 
 https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-SalehinShohan/main/public/JobCategory.json?token=GHSAT0AAAAAACA6MJ6EPDNAYQNVFJCX32QGZBVRLCA
 
-# working procedure
+# Working Procedure
 - Planning: Identify the website's purpose, audience, and content. Plan the website's structure and layout.
 - Wireframing: Create a basic visual layout of the website's pages and content using wireframing tools.
 - Design: Use design tools like Sketch or Figma to create high-fidelity designs of the website's pages.
@@ -21,3 +21,4 @@ https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-Sa
 https://bright-pony-a37bfe.netlify.app/
 
 # Code Link:
+https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-SalehinShohan
