@@ -2,6 +2,7 @@ import React from "react";
 
 const JobItem = ({ job }) => {
   const { name, picture, title, salary, location, type1, type2 } = job;
+
   return (
     <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
       <div className="flex w-full h-full space-x-2 sm:space-x-4">

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getShoppingCart } from "../utils/fakeDb";
 import { useLoaderData } from "react-router-dom";
 import JobItem from "../JobItem/JobItem";
+import Filter from "../Filter/Filter";
 
 const AppliedJobs = () => {
   const { newArr } = useLoaderData();
@@ -23,6 +24,7 @@ const AppliedJobs = () => {
         }
 
       </div>
+      <Filter></Filter>
     </div>
   );
 };
