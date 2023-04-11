@@ -28,6 +28,17 @@ const JobItem = ({ job }) => {
                 <div className="border border-purple-400 p-1 m-1 text-purple-400">
                   <p>{type2}</p>
                 </div>
+
+
+                
+                <Link
+                  to={`../view/${id}`}
+                  className="inline-flex items-center bg-purple-600 p-2 rounded-lg font-bold text-white transition-colors duration-200 hover:text-blue-700 lg:ml-52">
+                  View Details
+                </Link>
+              
+
+
               </div>
 
               <div className="flex gap-5">
@@ -77,13 +88,7 @@ const JobItem = ({ job }) => {
                   </div>
                 </div>
               </div>
-              <div className="card-actions justify-center mt-7">
-                <Link
-                  to={`../view/${id}`}
-                  className="inline-flex items-center bg-purple-600 p-3 rounded-lg font-bold text-white transition-colors duration-200 hover:text-blue-700">
-                  View Details
-                </Link>
-              </div>
+              
             </div>
           </div>
         </div>
