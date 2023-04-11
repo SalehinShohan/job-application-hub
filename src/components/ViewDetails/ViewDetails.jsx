@@ -43,12 +43,12 @@ const ViewDetails = () => {
         </div>
         <div className="bg bg-lime-200 text-center rounded-lg w-96">
             <p className="text-black font-semibold text-2xl mb-9 mt-10">Job Details</p>
-            <hr class="h-px my-auto mx-auto bg-gray-200 border-0 dark:bg-gray-700 w-80"/>
+            <hr className="h-px my-auto mx-auto bg-gray-200 border-0 dark:bg-gray-700 w-80"/>
             <div>
                 <p className="mt-5 text-black">Salary: {newDetail.salary}</p>
                 <p className="mt-5 text-black">Job Title: {newDetail.title}</p>
                 <p className="text-black mt-6 text-2xl font-semibold mb-5">Contact Information</p>
-                <hr class="h-px my-auto mx-auto bg-gray-200 border-0 dark:bg-gray-700 w-80"/>
+                <hr className="h-px my-auto mx-auto bg-gray-200 border-0 dark:bg-gray-700 w-80"/>
                 <p className="mt-5 text-black">Phone: {newDetail.phone}</p>
                 <p className="mt-5 text-black">Email: {newDetail.email}</p>
                 <p className="mt-5 text-black">Address: {newDetail.location}</p>
