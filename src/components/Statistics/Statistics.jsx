@@ -1,19 +1,18 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import {
-  Tooltip,
-  PieChart,
-  Pie,
-} from "recharts";
+import { Tooltip, PieChart, Pie } from "recharts";
 
 const Statistics = () => {
   const recharts = useLoaderData();
 
   return (
     <div>
-        <h2 className="text-center font-bold text-4xl mt-10 mb-10">Recharts For 7 Assignmrnts Marks</h2>
-        <p className="text-center text-white font-bold">Pie Chart</p>
-      <PieChart className="lg:ml-96 mt-20" width={730} height={250}>
+      <h2 className="text-center font-bold text-4xl mt-10 mb-10">
+        Recharts For 7 Assignmrnts Marks
+      </h2>
+      <p className="text-center text-white font-bold">Pie Chart</p>
+
+      <PieChart className="lg:ml-96 mt-40" width={400} height={200}>
         <Tooltip></Tooltip>
         <Pie
           data={recharts}
